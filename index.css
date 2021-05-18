@@ -1,83 +1,90 @@
-    body {
-        background-color: rgb(105, 103, 103);
-    }
-    
-    h1 {
-        color: rgb(0, 0, 0);
-        font-size: 125px;
-        font-family: fantasy;
-        text-align: center;
-        margin-top: 5%;
-    }
-    
-    h1:hover {
-        align-content: center;
-        cursor: pointer;
-        background-color: black;
-        color: cornflowerblue;
-        transition: transform .3s;
-    }
-    
-    h2 {
-        color: whitesmoke;
-        font-size: 20px;
-        font-family: monospace;
-        text-align: center;
-        margin-top: 30%;
-    }
-    
-    h2:hover {
-        align-content: center;
-        cursor: pointer;
-        background-color: black;
-        border: 1px;
-        border-radius: 360px;
-        border-width: inherit;
-        color: cornflowerblue;
-        transition: transform .3s;
-    }
-    
-    .guide .guidetxt {
-        visibility: hidden;
-        width: 120px;
-        background-color: rgb(95, 94, 94);
-        color: rgb(13, 0, 197);
-        text-align: center;
-        border-radius: 5px;
-        padding: 5px 0;
-        position: absolute;
-        left: 50%;
-    }
-    
-    .guide:hover .guidetxt {
-        visibility: visible;
-    }
-    
-    .digitalclock {
-        background-color: rgb(51, 47, 47);
-        border: 1px solid;
-        border-color: rgb(221, 208, 208);
-        border-radius: 10px;
-        position: absolute;
-        color: green;
-        align-content: center;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        font-size: 60px;
-        font-weight: 700px;
-        font-family: fantasy;
-        letter-spacing: 1px;
-    }
-    
-    .digitalclock:hover {
-        align-content: center;
-        cursor: pointer;
-        background-color: black;
-        color: cornflowerblue;
-        transition: transform .3s;
-        /* Animation */
-        width: 445px;
-        height: 100;
-        margin: auto;
-    }
+body {
+  background-color: rgb(15, 23, 30);
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 125px;
+  font-family: fantasy;
+  text-align: center;
+  margin-top: 5%;
+}
+
+h1:hover {
+  align-content: center;
+  cursor: pointer;
+  /* background-color: black; */
+  color: rgb(140, 158, 190);
+  transition: transform 0.3s;
+}
+
+h2 {
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 30%;
+}
+
+h2:hover {
+  align-content: center;
+  cursor: pointer;
+  background-color: black;
+  border: 1px;
+  border-radius: 360px;
+  border-width: inherit;
+  color: cornflowerblue;
+  transition: transform 0.3s;
+}
+
+.guide {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.guide .guidetxt {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(95, 94, 94);
+  color: rgb(13, 0, 197);
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  position: absolute;
+  left: 50%;
+}
+
+.guide:hover .guidetxt {
+  visibility: visible;
+}
+
+.digitalclock {
+  background-color: rgb(35, 68, 64);
+  border: 1px solid;
+  border-color: none;
+  border-radius: 10px;
+  position: absolute;
+  color: white;
+  align-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 60px;
+  font-weight: 700px;
+  font-family: fantasy;
+  letter-spacing: 1px;
+  padding: 6px 12px;
+}
+
+.digitalclock:hover {
+  align-content: center;
+  cursor: pointer;
+  background-color: black;
+  color: cornflowerblue;
+  transition: transform 0.3s;
+  width: 445px;
+  height: 100;
+  margin: auto;
+}
