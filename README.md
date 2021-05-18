@@ -5,4 +5,5 @@ Digital Clock using HTML CSS and JavaScript
 https://mrhappyhere.github.io/DigiClock/
 
 # Preview:-
-![Image 1](https://user-images.githubusercontent.com/80676763/118610480-6da13600-b7d9-11eb-8570-6fba163fb83c.jpg)
+![Image 3](https://user-images.githubusercontent.com/80676763/118694679-f2b43b80-b829-11eb-9592-7f178e1f7a3a.jpg)
+
