@@ -11,9 +11,9 @@ function displayTime() {
   if (hrs == 0) {
     hrs = 12;
   }
-  // //for AM PM
+  //for AM PM
   if (hrs > 12) {
-    //     //13=13-12
+    //eg; 13=13-12
     hrs = hrs - 12;
   }
 
@@ -27,4 +27,5 @@ function displayTime() {
     hrs + ' : ' + min + ' : ' + sec + ' ' + session;
   setTimeout(displayTime, 1000);
 }
+
 displayTime();
